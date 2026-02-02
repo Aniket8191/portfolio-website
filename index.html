@@ -6,6 +6,15 @@
 </head>
 <body>
 
+    <nav>
+        <h2> Aniket</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li> 
+        </ul>
+    </nav>
     <header>
         <h1>Hi, I'm Aniket</h1>
         <p>IT Student | Future Software Engineer</p>
@@ -31,9 +40,22 @@
         <p>More projects coming soon...</p>
     </section>
 
+
+    <section  id="contact">
+        <h2>Contact Me</h2>
+        <form onsubmit="showMessage(event)">
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <textarea  placeholder="Your message "required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+        <p id="successMsg"></p>
+
+    </section>
+
     <footer>
         <p>© 2026 Aniket</p>
     </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
