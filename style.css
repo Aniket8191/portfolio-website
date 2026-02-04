@@ -54,3 +54,30 @@ nav ul {
     padding: 0 ;
 
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    nav ul {
+        flex-direction: column;
+        gap :10px;
+    }
+    section{
+        width:90%;
+    }
+
+    input , textarea{
+        width : 90%;
+
+    }
+
+    .profile-img{
+        width: 120px;
+
+    }
+
+}
